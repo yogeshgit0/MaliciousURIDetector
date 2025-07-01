@@ -1,5 +1,5 @@
 # 🛡️ MaliciousURIDetector
-A Python tool to detect 70+ types of malicious payloads in web logs based on curated regex patterns.
+This Python tool is designed for Red Teamers, SOC analysts, DevSecOps engineers, incident responders, and security researchers who need to rapidly analyze WAF logs or web traffic for signs of malicious activity. Whether you're triaging alerts, validating attack payloads post-engagement, tuning WAF rules, or integrating into CI/CD pipelines, this utility helps detect over 70+ web attack patterns including SQLi, XSS, RCE, SSRF, JWT tampering, and GraphQL introspection abuse through advanced regex matching and URI decoding, making it a powerful asset for both offense and defense teams.
 
 ## 🚀 Tool Highlights
 - ✅ **Supports Multiple Log Types:** Works with .xlsx, .csv, .tsv, or .txt files exported from:
