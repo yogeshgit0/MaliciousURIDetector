@@ -17,7 +17,7 @@ This Python tool is designed for Red Teamers, SOC analysts, DevSecOps engineers,
 
 ## 📸 Example
 
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/360a2ab7-8dc4-47de-bcad-f5c70e976112" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/77e6cb02-026c-47ef-94da-f5777bbb94c4" />
 
 ## 🧪 Supported Attack Categories
 
