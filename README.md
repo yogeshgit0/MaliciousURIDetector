@@ -29,11 +29,6 @@ This Python tool is designed for Red Teamers, SOC analysts, DevSecOps engineers,
 - Infra flaws (Request Smuggling, Response Splitting)
 - Rare issues (RFD, Cache Poisoning, Dependency Confusion)
 
-## 📦 Installation
-
-- git clone https://github.com/yogeshgit0/MaliciousURIDetector.git
-- cd MaliciousURIDetector
-
 ## 📋 Pre-requisites
 Before running the tool, ensure the following are in place:
 - Python 3.8+ installed and accessible from your terminal
@@ -45,3 +40,8 @@ Before running the tool, ensure the following are in place:
   - API Gateway logs or GraphQL endpoint traffic
 - For Excel export functionality, install openpyxl
 - Recommended terminal supports Rich CLI output (color, tables, progress bars)
+
+## 📦 Installation
+
+- git clone https://github.com/yogeshgit0/MaliciousURIDetector.git
+- cd MaliciousURIDetector
