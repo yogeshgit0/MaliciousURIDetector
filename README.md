@@ -33,3 +33,15 @@ This Python tool is designed for Red Teamers, SOC analysts, DevSecOps engineers,
 
 - git clone https://github.com/yogeshgit0/MaliciousURIDetector.git
 - cd MaliciousURIDetector
+
+## 📋 Pre-requisites
+Before running the tool, ensure the following are in place:
+- Python 3.8+ installed and accessible from your terminal
+- Your WAF or HTTP access logs are in one of the following formats:
+  - .xlsx (Excel with a requestUri_s column)
+  - .csv, .tsv, or .txt (with URL column named requestUri_s or similar)
+- Logs should contain at least one column representing the full request URI, typically extracted from:
+  - AWS WAF, Azure WAF, ModSecurity, F5, Citrix, or reverse proxy logs
+  - API Gateway logs or GraphQL endpoint traffic
+- For Excel export functionality, install openpyxl
+- Recommended terminal supports Rich CLI output (color, tables, progress bars)
