@@ -24,5 +24,19 @@ A Python tool to detect 70+ types of malicious payloads in web logs based on cur
 
 ## 📦 Installation
 
-git clone https://github.com/yogeshgit0/MaliciousURIDetector.git
-cd MaliciousURIDetector
+- git clone https://github.com/yogeshgit0/MaliciousURIDetector.git
+- cd MaliciousURIDetector
+
+## 📦 Tool Highlights
+✅ **Supports Multiple Log Types:** Works with .xlsx, .csv, .tsv, or .txt files exported from:
+- Azure WAF
+- AWS CloudFront WAF
+- F5 / Citrix WAF
+- ModSecurity / OWASP CRS
+- Custom web logs
+✅ **Scans request URIs:** Focused on the requestUri_s column or similar
+✅ **Auto-decodes URI encoding:** Handles obfuscated %2f..%2e and %3d-style payloads
+✅ **Regex-based detection:** Covers 70+ web attack patterns across 7 domains
+✅ **Beautiful CLI & Summary:** Uses rich for colorful feedback and progress bars
+✅ **Excel Report Generation:** Timestamped, color-coded output for incident tracking
+✅ **Plug-and-Play:** Ready for integration in CI/CD or SOC playbooks
